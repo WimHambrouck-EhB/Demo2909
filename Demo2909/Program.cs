@@ -12,6 +12,11 @@ namespace Demo2909
 
             lijst.Remove("twee");
 
+            Persoon p = new Persoon();
+
+            Console.Write("Voornaam? ");
+            p.Voornaam = Console.ReadLine();
+
             Console.WriteLine(string.Join(", ", lijst));
         }
     }
